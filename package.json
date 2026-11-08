@@ -1,0 +1,25 @@
+{
+  "name": "dsa-with-typescript",
+  "version": "1.0.0",
+  "description": "DSA practice, algorithms and problem-solving using TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajGuptaVips2025/DSA-with-TypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RajGuptaVips2025/DSA-with-TypeScript/issues"
+  },
+  "homepage": "https://github.com/RajGuptaVips2025/DSA-with-TypeScript#readme",
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
