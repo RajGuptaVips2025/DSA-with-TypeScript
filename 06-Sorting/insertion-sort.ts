@@ -1,9 +1,9 @@
 const insertionSort = (arr: number[], n: number): void => {
     for (let i = 0; i <= n - 1; i++) {
         let j:number = i;
-        while (j>0 && arr[j-1] > arr[j]) {
-            let temp:number = arr[j-1];
-            arr[j-1] = arr[j];
+        while (j>0 && arr[j-1]! > arr[j]!) {
+            let temp:number = arr[j-1]!;
+            arr[j-1] = arr[j]!;
             arr[j] = temp;
             j--;
         }

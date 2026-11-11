@@ -2,9 +2,9 @@ const bubbleSort = (arr: number[], n: number): void => {
     for (let i = n-1; i >= 0; i--) {
         let didSwap: number = 0;
         for (let j = 0; j <= i-1 ; j++) {
-            if (arr[j] > arr[j+1]) {
-                let temp= arr[j+1];
-                arr[j+1] = arr[j];
+            if (arr[j]! > arr[j+1]!) {
+                let temp:number= arr[j+1]!;
+                arr[j+1] = arr[j]!;
                 arr[j] = temp;
                 didSwap = 1;
             }
